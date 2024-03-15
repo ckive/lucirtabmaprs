@@ -1,0 +1,95 @@
+[0.206s] Invoking command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs': AMENT_PREFIX_PATH=/home/dany/Desktop/rtabmap_ws/install/rtabrs:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml --junit-prefix=rtabrs -o cache_dir=/home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache PYTHONPATH=/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.387s] [1m============================= test session starts ==============================[0m
+[0.387s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.389s] cachedir: /home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache
+[0.389s] rootdir: /home/dany/Desktop/rtabmap_ws/src/rtabrs
+[0.389s] plugins: ament-lint-0.12.10, ament-pep257-0.12.10, ament-xmllint-0.12.10, launch-testing-1.0.5, ament-flake8-0.12.10, launch-testing-ros-0.19.7, ament-copyright-0.12.10, cov-3.0.0, colcon-core-0.15.2
+[0.455s] [1mcollecting ... [0m[1m
+[0.455s] collected 3 items                                                              [0m
+[0.455s] 
+[0.460s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.564s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.604s] test/test_pep257.py [31mF[0m[31m                                                    [100%][0m
+[0.605s] 
+[0.605s] =================================== FAILURES ===================================
+[0.605s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.605s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.671s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.671s] [1m[31mE   AssertionError: Found 4 code style errors / warnings:[0m
+[0.671s] [1m[31mE     ./setup.py:16:100: E501 line too long (108 > 99 characters)[0m
+[0.671s] [1m[31mE     ./launch/launch2.py:4:91: E999 SyntaxError: invalid syntax[0m
+[0.671s] [1m[31mE     ./launch/launch.py:4:1: E302 expected 2 blank lines, found 1[0m
+[0.671s] [1m[31mE     ./launch/launch.py:22:85: W291 trailing whitespace[0m
+[0.671s] [1m[31mE   assert 1 == 0[0m
+[0.672s] ----------------------------- Captured stdout call -----------------------------
+[0.672s] 
+[0.672s] ./setup.py:16:100: E501 line too long (108 > 99 characters)
+[0.672s]         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*')))
+[0.672s]                                                                                                    ^
+[0.672s] 
+[0.672s] ./launch/launch2.py:4:91: E999 SyntaxError: invalid syntax
+[0.672s] from launch.substitutions import LaunchConfiguration, ThisLaunchFileDir, PythonExpression``
+[0.672s]                                                                                           ^
+[0.672s] 
+[0.672s] ./launch/launch.py:4:1: E302 expected 2 blank lines, found 1
+[0.672s] def generate_launch_description():
+[0.672s] ^
+[0.672s] 
+[0.672s] ./launch/launch.py:22:85: W291 trailing whitespace
+[0.672s]         # Now launch rtabmap via cmdline since the published names should be correct 
+[0.672s]                                                                                     ^
+[0.672s] 
+[0.672s] 1     E302 expected 2 blank lines, found 1
+[0.672s] 1     E501 line too long (108 > 99 characters)
+[0.672s] 1     E999 SyntaxError: invalid syntax
+[0.672s] 1     W291 trailing whitespace
+[0.672s] 
+[0.672s] 7 files checked
+[0.672s] 4 errors
+[0.672s] 
+[0.673s] 'E'-type errors: 3
+[0.673s] 'W'-type errors: 1
+[0.673s] 
+[0.673s] Checked files:
+[0.673s] 
+[0.673s] * ./setup.py
+[0.673s] * ./test/test_flake8.py
+[0.673s] * ./test/test_pep257.py
+[0.673s] * ./test/test_copyright.py
+[0.673s] * ./launch/launch2.py
+[0.673s] * ./launch/launch.py
+[0.673s] * ./rtabrs/__init__.py
+[0.673s] ----------------------------- Captured stderr call -----------------------------
+[0.673s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.673s] [31m[1m_________________________________ test_pep257 __________________________________[0m
+[0.673s] [1m[31mtest/test_pep257.py[0m:23: in test_pep257
+[0.673s]     [94massert[39;49;00m rc == [94m0[39;49;00m, [33m'[39;49;00m[33mFound code style errors / warnings[39;49;00m[33m'[39;49;00m
+[0.673s] [1m[31mE   AssertionError: Found code style errors / warnings[0m
+[0.673s] [1m[31mE   assert 1 == 0[0m
+[0.673s] ----------------------------- Captured stdout call -----------------------------
+[0.673s] checking ./launch/launch.py
+[0.673s] checking ./launch/launch2.py
+[0.673s] ./launch/launch2.py: Cannot parse file.
+[0.673s] checking ./rtabrs/__init__.py
+[0.673s] checking ./setup.py
+[0.673s] checking ./test/test_copyright.py
+[0.674s] checking ./test/test_flake8.py
+[0.674s] checking ./test/test_pep257.py
+[0.674s] checking test/test_copyright.py
+[0.674s] checking test/test_flake8.py
+[0.674s] checking test/test_pep257.py
+[0.674s] 1 errors
+[0.674s] ----------------------------- Captured stderr call -----------------------------
+[0.674s] Error in file ./launch/launch2.py: Cannot parse file.
+[0.674s] [33m=============================== warnings summary ===============================[0m
+[0.674s] test/test_flake8.py::test_flake8
+[0.674s] test/test_flake8.py::test_flake8
+[0.674s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.674s] 
+[0.674s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.674s] -- generated xml file: /home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml ---
+[0.674s] =========================== short test summary info ============================
+[0.674s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 4 code style ...
+[0.674s] FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[0.674s] [31m=================== [31m[1m2 failed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.28s[0m[31m ===================[0m
+[0.785s] Invoked command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs' returned '1': AMENT_PREFIX_PATH=/home/dany/Desktop/rtabmap_ws/install/rtabrs:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml --junit-prefix=rtabrs -o cache_dir=/home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache PYTHONPATH=/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

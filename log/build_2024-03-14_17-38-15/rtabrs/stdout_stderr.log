@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/rtabrs/rtabrs.egg-info
+writing ../../build/rtabrs/rtabrs.egg-info/PKG-INFO
+writing dependency_links to ../../build/rtabrs/rtabrs.egg-info/dependency_links.txt
+writing entry points to ../../build/rtabrs/rtabrs.egg-info/entry_points.txt
+writing requirements to ../../build/rtabrs/rtabrs.egg-info/requires.txt
+writing top-level names to ../../build/rtabrs/rtabrs.egg-info/top_level.txt
+writing manifest file '../../build/rtabrs/rtabrs.egg-info/SOURCES.txt'
+reading manifest file '../../build/rtabrs/rtabrs.egg-info/SOURCES.txt'
+writing manifest file '../../build/rtabrs/rtabrs.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dany/Desktop/rtabmap_ws/build/rtabrs/build
+creating /home/dany/Desktop/rtabmap_ws/build/rtabrs/build/lib
+creating /home/dany/Desktop/rtabmap_ws/build/rtabrs/build/lib/rtabrs
+copying rtabrs/__init__.py -> /home/dany/Desktop/rtabmap_ws/build/rtabrs/build/lib/rtabrs
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs
+copying /home/dany/Desktop/rtabmap_ws/build/rtabrs/build/lib/rtabrs/__init__.py -> /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs
+byte-compiling /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/ament_index
+creating /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/ament_index/resource_index
+creating /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/ament_index/resource_index/packages
+copying resource/rtabrs -> /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/ament_index/resource_index/packages
+copying package.xml -> /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/rtabrs
+running install_egg_info
+Copying ../../build/rtabrs/rtabrs.egg-info to /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dany/Desktop/rtabmap_ws/build/rtabrs/install.log'

@@ -1,0 +1,54 @@
+[0.195s] Invoking command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml --junit-prefix=rtabrs -o cache_dir=/home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache /usr/bin/python3 -m pytest
+[0.360s] [1m============================= test session starts ==============================[0m
+[0.360s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.362s] cachedir: /home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache
+[0.362s] rootdir: /home/dany/Desktop/rtabmap_ws/src/rtabrs
+[0.362s] plugins: ament-lint-0.12.10, ament-pep257-0.12.10, ament-xmllint-0.12.10, launch-testing-1.0.5, ament-flake8-0.12.10, launch-testing-ros-0.19.7, ament-copyright-0.12.10, cov-3.0.0, colcon-core-0.15.2
+[0.408s] [1mcollecting ... [0m[1m
+[0.408s] collected 3 items                                                              [0m
+[0.408s] 
+[0.414s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.491s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.501s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[0.501s] 
+[0.501s] =================================== FAILURES ===================================
+[0.501s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.501s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.527s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.527s] [1m[31mE   AssertionError: Found 1 code style errors / warnings:[0m
+[0.527s] [1m[31mE     ./launch/launch.py:4:1: E302 expected 2 blank lines, found 1[0m
+[0.527s] [1m[31mE   assert 1 == 0[0m
+[0.527s] ----------------------------- Captured stdout call -----------------------------
+[0.527s] 
+[0.527s] ./launch/launch.py:4:1: E302 expected 2 blank lines, found 1
+[0.527s] def generate_launch_description():
+[0.527s] ^
+[0.527s] 
+[0.527s] 1     E302 expected 2 blank lines, found 1
+[0.527s] 
+[0.527s] 6 files checked
+[0.527s] 1 errors
+[0.527s] 
+[0.527s] 'E'-type errors: 1
+[0.528s] 
+[0.528s] Checked files:
+[0.528s] 
+[0.528s] * ./setup.py
+[0.528s] * ./test/test_flake8.py
+[0.528s] * ./test/test_pep257.py
+[0.528s] * ./test/test_copyright.py
+[0.528s] * ./launch/launch.py
+[0.528s] * ./rtabrs/__init__.py
+[0.528s] ----------------------------- Captured stderr call -----------------------------
+[0.528s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.528s] [33m=============================== warnings summary ===============================[0m
+[0.528s] test/test_flake8.py::test_flake8
+[0.528s] test/test_flake8.py::test_flake8
+[0.528s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.528s] 
+[0.528s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.528s] -- generated xml file: /home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml ---
+[0.528s] =========================== short test summary info ============================
+[0.528s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...
+[0.528s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.17s[0m[31m ==============[0m
+[0.583s] Invoked command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml --junit-prefix=rtabrs -o cache_dir=/home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache /usr/bin/python3 -m pytest

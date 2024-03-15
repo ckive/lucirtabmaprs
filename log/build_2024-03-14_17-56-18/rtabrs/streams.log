@@ -1,0 +1,28 @@
+[0.396s] Invoking command in '/home/dany/Desktop/rtabmap_ws/build/rtabrs': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dany/Desktop/rtabmap_ws/build/rtabrs/build
+[0.547s] running develop
+[0.619s] Removing /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs.egg-link (link to .)
+[0.646s] Invoked command in '/home/dany/Desktop/rtabmap_ws/build/rtabrs' returned '0': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dany/Desktop/rtabmap_ws/build/rtabrs/build
+[0.648s] Invoking command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rtabrs build --build-base /home/dany/Desktop/rtabmap_ws/build/rtabrs/build install --record /home/dany/Desktop/rtabmap_ws/build/rtabrs/install.log --single-version-externally-managed
+[0.778s] running egg_info
+[0.778s] writing ../../build/rtabrs/rtabrs.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/rtabrs/rtabrs.egg-info/dependency_links.txt
+[0.779s] writing entry points to ../../build/rtabrs/rtabrs.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/rtabrs/rtabrs.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/rtabrs/rtabrs.egg-info/top_level.txt
+[0.779s] reading manifest file '../../build/rtabrs/rtabrs.egg-info/SOURCES.txt'
+[0.780s] writing manifest file '../../build/rtabrs/rtabrs.egg-info/SOURCES.txt'
+[0.780s] running build
+[0.780s] running build_py
+[0.780s] running install
+[0.780s] running install_lib
+[0.780s] creating /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs
+[0.780s] copying /home/dany/Desktop/rtabmap_ws/build/rtabrs/build/lib/rtabrs/__init__.py -> /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs
+[0.781s] byte-compiling /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs/__init__.py to __init__.cpython-310.pyc
+[0.781s] running install_data
+[0.781s] creating /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/rtabrs/launch
+[0.781s] copying launch/launch.py -> /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/rtabrs/launch
+[0.781s] running install_egg_info
+[0.782s] Copying ../../build/rtabrs/rtabrs.egg-info to /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs-0.0.0-py3.10.egg-info
+[0.782s] running install_scripts
+[0.795s] writing list of installed files to '/home/dany/Desktop/rtabmap_ws/build/rtabrs/install.log'
+[0.813s] Invoked command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs' returned '0': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rtabrs build --build-base /home/dany/Desktop/rtabmap_ws/build/rtabrs/build install --record /home/dany/Desktop/rtabmap_ws/build/rtabrs/install.log --single-version-externally-managed

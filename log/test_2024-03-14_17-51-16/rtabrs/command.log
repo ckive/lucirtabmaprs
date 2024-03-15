@@ -1,0 +1,2 @@
+Invoking command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml --junit-prefix=rtabrs -o cache_dir=/home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache /usr/bin/python3 -m pytest
+Invoked command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml --junit-prefix=rtabrs -o cache_dir=/home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache /usr/bin/python3 -m pytest

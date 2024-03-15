@@ -1,0 +1,21 @@
+[0.919s] Invoking command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rtabrs build --build-base /home/dany/Desktop/rtabmap_ws/build/rtabrs/build install --record /home/dany/Desktop/rtabmap_ws/build/rtabrs/install.log --single-version-externally-managed
+[1.095s] running egg_info
+[1.096s] writing ../../build/rtabrs/rtabrs.egg-info/PKG-INFO
+[1.096s] writing dependency_links to ../../build/rtabrs/rtabrs.egg-info/dependency_links.txt
+[1.096s] writing entry points to ../../build/rtabrs/rtabrs.egg-info/entry_points.txt
+[1.096s] writing requirements to ../../build/rtabrs/rtabrs.egg-info/requires.txt
+[1.096s] writing top-level names to ../../build/rtabrs/rtabrs.egg-info/top_level.txt
+[1.097s] reading manifest file '../../build/rtabrs/rtabrs.egg-info/SOURCES.txt'
+[1.105s] writing manifest file '../../build/rtabrs/rtabrs.egg-info/SOURCES.txt'
+[1.105s] running build
+[1.105s] running build_py
+[1.106s] running install
+[1.106s] running install_lib
+[1.106s] running install_data
+[1.106s] copying launch/multiple_launch.py -> /home/dany/Desktop/rtabmap_ws/install/rtabrs/share/rtabrs/launch
+[1.107s] running install_egg_info
+[1.108s] removing '/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs-0.0.0-py3.10.egg-info' (and everything under it)
+[1.108s] Copying ../../build/rtabrs/rtabrs.egg-info to /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs-0.0.0-py3.10.egg-info
+[1.109s] running install_scripts
+[1.139s] writing list of installed files to '/home/dany/Desktop/rtabmap_ws/build/rtabrs/install.log'
+[1.416s] Invoked command in '/home/dany/Desktop/rtabmap_ws/src/rtabrs' returned '0': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rtabrs build --build-base /home/dany/Desktop/rtabmap_ws/build/rtabrs/build install --record /home/dany/Desktop/rtabmap_ws/build/rtabrs/install.log --single-version-externally-managed

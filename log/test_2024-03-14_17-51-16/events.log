@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (rtabrs) JobQueued: {'identifier': 'rtabrs', 'dependencies': OrderedDict([('rtabrs', '/home/dany/Desktop/rtabmap_ws/install/rtabrs')])}
+[0.000152] (rtabrs) JobStarted: {'identifier': 'rtabrs'}
+[0.099398] (-) TimerEvent: {}
+[0.193524] (rtabrs) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/dany/Desktop/rtabmap_ws/src/rtabrs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,4624,0', 'USER': 'dany', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dany', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/dany/Desktop/rtabmap_ws/src', 'TERM_PROGRAM_VERSION': '1.87.1', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '3319', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dany/Desktop/rtabmap_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dany', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dany', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/dany/.local/bin:/home/dany/.local/bin:/home/dany/.local/bin:/home/dany/.local/bin:/opt/ros/humble/bin:/home/dany/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/legion:@/tmp/.ICE-unix/3295,unix/legion:/tmp/.ICE-unix/3295', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6049132c_f2b1_4725_8a97_18ba3306f512', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c71d5c4ea2.sock', 'GNOME_TERMINAL_SERVICE': ':1.199', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dany/Desktop/rtabmap_ws/install/rtabrs:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'pop:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dany/Desktop/rtabmap_ws/build/rtabrs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/dany/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/dany/Desktop/rtabmap_ws/build/rtabrs:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml --junit-prefix=rtabrs -o cache_dir=/home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache'}, 'shell': False}
+[0.199523] (-) TimerEvent: {}
+[0.299841] (-) TimerEvent: {}
+[0.360091] (rtabrs) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.360367] (rtabrs) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.362399] (rtabrs) StdoutLine: {'line': b'cachedir: /home/dany/Desktop/rtabmap_ws/build/rtabrs/.pytest_cache\n'}
+[0.362485] (rtabrs) StdoutLine: {'line': b'rootdir: /home/dany/Desktop/rtabmap_ws/src/rtabrs\n'}
+[0.362541] (rtabrs) StdoutLine: {'line': b'plugins: ament-lint-0.12.10, ament-pep257-0.12.10, ament-xmllint-0.12.10, launch-testing-1.0.5, ament-flake8-0.12.10, launch-testing-ros-0.19.7, ament-copyright-0.12.10, cov-3.0.0, colcon-core-0.15.2\n'}
+[0.399952] (-) TimerEvent: {}
+[0.408043] (rtabrs) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.408224] (rtabrs) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.408318] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.414147] (rtabrs) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.491281] (rtabrs) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.500153] (-) TimerEvent: {}
+[0.500824] (rtabrs) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.500998] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.501109] (rtabrs) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.501202] (rtabrs) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.501291] (rtabrs) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.526221] (rtabrs) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.526765] (rtabrs) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 1 code style errors / warnings:\x1b[0m\n'}
+[0.526891] (rtabrs) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/launch.py:4:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.526995] (rtabrs) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.527042] (rtabrs) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.527081] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.527121] (rtabrs) StdoutLine: {'line': b'./launch/launch.py:4:1: E302 expected 2 blank lines, found 1\n'}
+[0.527164] (rtabrs) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[0.527207] (rtabrs) StdoutLine: {'line': b'^\n'}
+[0.527247] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.527290] (rtabrs) StdoutLine: {'line': b'1     E302 expected 2 blank lines, found 1\n'}
+[0.527413] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.527455] (rtabrs) StdoutLine: {'line': b'6 files checked\n'}
+[0.527497] (rtabrs) StdoutLine: {'line': b'1 errors\n'}
+[0.527559] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.527600] (rtabrs) StdoutLine: {'line': b"'E'-type errors: 1\n"}
+[0.527639] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.527682] (rtabrs) StdoutLine: {'line': b'Checked files:\n'}
+[0.527719] (rtabrs) StdoutLine: {'line': b'\n'}
+[0.527755] (rtabrs) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.527793] (rtabrs) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.527830] (rtabrs) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.527880] (rtabrs) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.527919] (rtabrs) StdoutLine: {'line': b'* ./launch/launch.py\n'}
+[0.527955] (rtabrs) StdoutLine: {'line': b'* ./rtabrs/__init__.py\n'}
+[0.527990] (rtabrs) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.528030] (rtabrs) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.528078] (rtabrs) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.528246] (rtabrs) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.528293] (rtabrs) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.528332] (rtabrs) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.528381] (rtabrs) StderrLine: {'line': b'\n'}
+[0.528418] (rtabrs) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.528457] (rtabrs) StdoutLine: {'line': b'-- generated xml file: /home/dany/Desktop/rtabmap_ws/build/rtabrs/pytest.xml ---\n'}
+[0.528495] (rtabrs) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.528532] (rtabrs) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...\n'}
+[0.528570] (rtabrs) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.17s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[0.582652] (rtabrs) CommandEnded: {'returncode': 1}
+[0.583481] (rtabrs) TestFailure: {'identifier': 'rtabrs'}
+[0.583503] (rtabrs) JobEnded: {'identifier': 'rtabrs', 'rc': 0}
+[0.583768] (-) EventReactorShutdown: {}

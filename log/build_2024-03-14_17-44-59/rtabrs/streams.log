@@ -1,0 +1,16 @@
+[0.470s] Invoking command in '/home/dany/Desktop/rtabmap_ws/build/rtabrs': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dany/Desktop/rtabmap_ws/build/rtabrs/build --no-deps install_data
+[0.623s] running develop
+[0.703s] running egg_info
+[0.703s] writing rtabrs.egg-info/PKG-INFO
+[0.703s] writing dependency_links to rtabrs.egg-info/dependency_links.txt
+[0.703s] writing entry points to rtabrs.egg-info/entry_points.txt
+[0.703s] writing requirements to rtabrs.egg-info/requires.txt
+[0.704s] writing top-level names to rtabrs.egg-info/top_level.txt
+[0.705s] reading manifest file 'rtabrs.egg-info/SOURCES.txt'
+[0.712s] writing manifest file 'rtabrs.egg-info/SOURCES.txt'
+[0.712s] running build_ext
+[0.713s] Creating /home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages/rtabrs.egg-link (link to .)
+[0.713s] 
+[0.713s] Installed /home/dany/Desktop/rtabmap_ws/build/rtabrs
+[0.713s] running install_data
+[0.743s] Invoked command in '/home/dany/Desktop/rtabmap_ws/build/rtabrs' returned '0': PYTHONPATH=/home/dany/Desktop/rtabmap_ws/build/rtabrs/prefix_override:/home/dany/Desktop/rtabmap_ws/install/rtabrs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dany/Desktop/rtabmap_ws/build/rtabrs/build --no-deps install_data

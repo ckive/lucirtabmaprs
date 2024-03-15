@@ -1,0 +1,23 @@
+/rtabmap/rtabmap_viz
+  Subscribers:
+    /camera/color/camera_info: sensor_msgs/msg/CameraInfo
+    /camera/color/image_raw: sensor_msgs/msg/Image
+    /camera/depth/image_rect_raw: sensor_msgs/msg/Image
+    /rtabmap/global_path: nav_msgs/msg/Path
+    /rtabmap/goal_node: rtabmap_msgs/msg/Goal
+    /rtabmap/goal_reached: std_msgs/msg/Bool
+    /rtabmap/info: rtabmap_msgs/msg/Info
+    /rtabmap/mapData: rtabmap_msgs/msg/MapData
+    /rtabmap/odom: nav_msgs/msg/Odometry
+    /rtabmap/odom_info: rtabmap_msgs/msg/OdomInfo
+  Publishers:
+    /diagnostics: diagnostic_msgs/msg/DiagnosticArray
+    /rtabmap/republish_node_data: std_msgs/msg/Int32MultiArray
+  Service Servers:
+
+  Service Clients:
+
+  Action Servers:
+
+  Action Clients:
+
